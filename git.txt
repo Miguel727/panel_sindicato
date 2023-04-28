@@ -1,0 +1,33 @@
+SUBIR NUEVO PROYECTO:  https://www.youtube.com/watch?v=eQMcIGVc8N0
+
+
+git status -para ver lo modificado
+
+git fetch  -dice si hay diferencias
+
+
+SUBIR CAMBIOS: 
+
+git add .
+
+git commit -m "un mensaje"
+
+git push -u origin main
+
+
+BAJAR CAMBIOS:
+
+git fetch
+
+git pull
+
+
+CREAR RAMAS: https://www.youtube.com/watch?v=xMimoOrFS84
+
+SUBIR CAMBIOS A UNA NUEVA RAMA: 
+
+git add .
+
+git commit -m "un mensaje"
+
+git push -u origin <nombre rama>
