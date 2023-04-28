@@ -16,5 +16,5 @@ use App\Http\Controllers\FuncionariosController;
 
 Route::get('funcionarios', [FuncionariosController::class,'index'])->name('funcionarios');
 Route::get('funcionarios/nuevo', [FuncionariosController::class,'create'])->name('funcionarios.create');
-Route::post('funcionarios/nuevo/{funcionario}', [FuncionariosController::class,'store'])->name('funcionarios.store');
+Route::post('funcionarios/store', [FuncionariosController::class,'store'])->name('funcionarios.store');
 
