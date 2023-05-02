@@ -10,10 +10,10 @@
     <div class="container-fluid">
         <div class="row mb-3">
             <div class="col-sm-6">
-                <h1 class="m-0">Funcionarios </h1>
+                <h1 class="m-0">Jubilados</h1>
             </div><!-- /.col -->
             <div class="col-sm-6 text-right"> <!-- Agregando la clase "text-end" a esta columna -->
-                <a href="{{route('funcionarios.create')}}" class="btn btn-success">Nuevo Registro</a>
+                <a href="{{route('jubilados.create')}}" class="btn btn-success">Nuevo Registro</a>
             </div>
         </div><!-- /.row -->
     </div><!-- /.container-fluid -->

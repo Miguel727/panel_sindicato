@@ -11,7 +11,7 @@ class AyudasController extends Controller
      */
     public function index()
     {
-        //
+        return view ('ayudas.index');
     }
 
     /**
@@ -19,7 +19,7 @@ class AyudasController extends Controller
      */
     public function create()
     {
-        //
+        return view ('ayudas.create');
     }
 
     /**

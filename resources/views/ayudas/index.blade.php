@@ -10,10 +10,10 @@
     <div class="container-fluid">
         <div class="row mb-3">
             <div class="col-sm-6">
-                <h1 class="m-0">Funcionarios </h1>
+                <h1 class="m-0">LISTADO </h1>
             </div><!-- /.col -->
             <div class="col-sm-6 text-right"> <!-- Agregando la clase "text-end" a esta columna -->
-                <a href="{{route('funcionarios.create')}}" class="btn btn-success">Nuevo Registro</a>
+                <a href="{{route('ayudas.create')}}" class="btn btn-success">Nuevo Registro</a>
             </div>
         </div><!-- /.row -->
     </div><!-- /.container-fluid -->
@@ -35,21 +35,17 @@
         </tr>
     </thead>
     <tbody>
-        @foreach ($funcionarios as $fun)
+       
         <tr>
             <td>
                 <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-pen"></i></a>
                 <!-- Button trigger for danger theme modal -->
                 <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#modal-delete"><i class="fas fa-trash-alt"></i></button>
             </td>
-            <td>{{ $fun->ficha}}</td>
-            <td>{{ $fun->nombreCompleto}}</td>
-            <td>{{ $fun->localidad}}</td>
-            <td>{{ $fun->cedula}}</td>
-            <td>{{ $fun->celular}}</td>
+         
 
         </tr>
-        @endforeach
+        
     </tbody>
 
 </table>

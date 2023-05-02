@@ -31,3 +31,9 @@ git add .
 git commit -m "un mensaje"
 
 git push -u origin <nombre rama>
+
+
+
+
+
+C:\xampp\htdocs\sindicato>php artisan serve --host=localhost --port=8000
