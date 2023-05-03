@@ -33,7 +33,24 @@ git commit -m "un mensaje"
 git push -u origin <nombre rama>
 
 
-
+**********************CONSOLA******************************
 
 
 C:\xampp\htdocs\sindicato>php artisan serve --host=localhost --port=8000
+
+
+cd  /   *vuelve a la raiz
+
+cd carpeta   *va a la carpeta
+
+cd .. *vuelve a la carppeta anterior
+
+C:\xampp\htdocs\puntoventa>php artisan make:model Categoria   *crea un nuevo modelo
+
+C:\xampp\htdocs\puntoventa>php artisan make:controller CategoriaController --resource  *crea un nuevo controlador
+
+C:\xampp\htdocs\puntoventa>php artisan make:request CategoriaFormRequest  *crea un nuevo request 
+
+php artisan cache:clear   *Limpiar cache
+
+
