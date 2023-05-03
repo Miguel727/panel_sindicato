@@ -1,9 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\JubiladosController;
 use App\Http\Controllers\FuncionariosController;
 use App\Http\Controllers\AyudasController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\SessionsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +18,11 @@ use App\Http\Controllers\AyudasController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/', [HomeController::class,'index']);
+
+Route::get('/register', [RegisterController::class,'create'])->name('register.create');
+Route::get('/register', [RegisterController::class,'store'])->name('register.store');
+Route::get('/login', [SessionsController::class,'create'])->name('login.index');
 
 Route::get('funcionarios', [FuncionariosController::class,'index'])->name('funcionarios');
 Route::get('funcionarios/nuevo', [FuncionariosController::class,'create'])->name('funcionarios.create');

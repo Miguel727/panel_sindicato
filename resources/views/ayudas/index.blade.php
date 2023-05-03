@@ -10,7 +10,7 @@
     <div class="container-fluid">
         <div class="row mb-3">
             <div class="col-sm-6">
-                <h1 class="m-0">LISTADO </h1>
+                <h1 class="m-0">LISTADO AYUDAS </h1>
             </div><!-- /.col -->
             <div class="col-sm-6 text-right"> <!-- Agregando la clase "text-end" a esta columna -->
                 <a href="{{route('ayudas.create')}}" class="btn btn-success">Nuevo Registro</a>

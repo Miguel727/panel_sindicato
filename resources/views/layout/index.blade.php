@@ -53,12 +53,6 @@
       </ul>
 
     </nav>
-
-
-
-
-    </ul>
-    </nav>
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
